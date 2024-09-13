@@ -18,3 +18,11 @@ But does not:
 This Script is VERY simple. only about 20 lines of code.
 I Dont Know if this Will Help any Beginners (Proably Not) But i Hope it Will.
 
+There Are other Python Recreations That Are far More advanced. Like:
+
+https://github.com/Kubzelll/Memz-Recreated
+
+But, This one is Supposed to be Short, Simple, And without all the Epileptic stuff.
+
+All and all this was made for fun (i ❤️ Python)
+Have a Good Day!
