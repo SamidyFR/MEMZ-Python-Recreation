@@ -15,7 +15,7 @@ if choice1:
         webbrowser.open(random.choice(sites))
         time.sleep(5)
 
-    os.startfile("C:\Windows\System32\cmd.exe")
+    os.system('cmd')
     while run == True:
         webbrowser.open(random.choice(sites))
         time.sleep(5)
