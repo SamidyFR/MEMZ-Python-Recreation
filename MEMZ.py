@@ -11,11 +11,18 @@ choice1 = input("The Software you just executed is considered malware. This malw
 if choice1:
     print("YOUR COMPUTER HAS BEEN FUCKED BY THE MEMZ TROJAN. Your computer won't boot up again, so use it as long as you can! :D Trying to kill MEMZ will cause your system to be destroyed instantly, so don't try it :D")
     time.sleep(5)
-    for link in range(5):
-        webbrowser.open(random.choice(sites))
-        time.sleep(5)
-
+    webbrowser.open(random.choice(sites))
+    time.sleep(5)
+    webbrowser.open(random.choice(sites))
+    time.sleep(5)
+    webbrowser.open(random.choice(sites))
+    time.sleep(5)
+    webbrowser.open(random.choice(sites))
+    time.sleep(5)
+    webbrowser.open(random.choice(sites))
+    time.sleep(1)
     os.system('cmd')
+    time.sleep(3)
     while run == True:
         webbrowser.open(random.choice(sites))
         time.sleep(5)
