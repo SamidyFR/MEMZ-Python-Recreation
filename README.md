@@ -16,7 +16,7 @@ But does not:
 - Pretty Much all the Bad Stuff.
 
 This Script is VERY simple. only about 20 lines of code.
-I Dont Know if this Will Help any Beginners (Proably Not) But i Hope it Will.
+I Dont Know if this Will Help any Beginners (Probably Not) But i Hope it Will.
 
 There Are other Python Recreations That Are far More advanced. Like:
 
